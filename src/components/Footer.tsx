@@ -1,5 +1,14 @@
 
+import { Instagram, Facebook, Youtube, Twitter } from "lucide-react";
+
 export const Footer = () => {
+  const socialLinks = [
+    { name: 'Instagram', icon: Instagram, href: '#' },
+    { name: 'Facebook', icon: Facebook, href: '#' },
+    { name: 'YouTube', icon: Youtube, href: '#' },
+    { name: 'Twitter', icon: Twitter, href: '#' }
+  ];
+
   return (
     <footer className="bg-gray-900 py-12 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -14,15 +23,18 @@ export const Footer = () => {
               cinematography services across Maharashtra. Where every frame tells your unique story.
             </p>
             <div className="flex space-x-4">
-              {['Instagram', 'Facebook', 'YouTube', 'Twitter'].map((platform) => (
-                <a
-                  key={platform}
-                  href="#"
-                  className="w-10 h-10 bg-gray-800 hover:bg-studio-gold hover:text-studio-charcoal rounded-lg flex items-center justify-center transition-all duration-300 text-studio-light"
-                >
-                  {platform.charAt(0)}
-                </a>
-              ))}
+              {socialLinks.map((social) => {
+                const IconComponent = social.icon;
+                return (
+                  <a
+                    key={social.name}
+                    href={social.href}
+                    className="w-10 h-10 bg-gray-800 hover:bg-studio-gold hover:text-studio-charcoal rounded-lg flex items-center justify-center transition-all duration-300 text-studio-light"
+                  >
+                    <IconComponent size={18} />
+                  </a>
+                );
+              })}
             </div>
           </div>
           

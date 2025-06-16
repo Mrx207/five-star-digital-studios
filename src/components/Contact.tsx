@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MapPin, Phone, Mail, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Mail, MessageCircle, Instagram, Facebook, Youtube } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export const Contact = () => {
@@ -10,7 +10,6 @@ export const Contact = () => {
     email: "",
     eventDate: "",
     services: "",
-    budget: "",
     message: ""
   });
 
@@ -27,7 +26,6 @@ export const Contact = () => {
       email: "",
       eventDate: "",
       services: "",
-      budget: "",
       message: ""
     });
   };
@@ -44,6 +42,12 @@ export const Contact = () => {
     const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
+
+  const socialLinks = [
+    { name: 'Instagram', icon: Instagram, href: '#' },
+    { name: 'Facebook', icon: Facebook, href: '#' },
+    { name: 'YouTube', icon: Youtube, href: '#' }
+  ];
 
   return (
     <section id="contact" className="py-20 bg-studio-charcoal">
@@ -108,15 +112,18 @@ export const Contact = () => {
             <div>
               <h4 className="text-studio-light font-semibold mb-4">Follow Us</h4>
               <div className="flex space-x-4">
-                {['Instagram', 'Facebook', 'YouTube'].map((platform) => (
-                  <a
-                    key={platform}
-                    href="#"
-                    className="w-12 h-12 bg-gray-800 hover:bg-studio-gold hover:text-studio-charcoal rounded-lg flex items-center justify-center transition-all duration-300 text-studio-light"
-                  >
-                    {platform.charAt(0)}
-                  </a>
-                ))}
+                {socialLinks.map((social) => {
+                  const IconComponent = social.icon;
+                  return (
+                    <a
+                      key={social.name}
+                      href={social.href}
+                      className="w-12 h-12 bg-gray-800 hover:bg-studio-gold hover:text-studio-charcoal rounded-lg flex items-center justify-center transition-all duration-300 text-studio-light"
+                    >
+                      <IconComponent size={20} />
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </div>
