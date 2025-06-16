@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { MapPin, Phone, Mail, MessageCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -210,26 +209,6 @@ export const Contact = () => {
                     <option value="multiple-services">Multiple Services</option>
                   </select>
                 </div>
-              </div>
-              
-              <div>
-                <label htmlFor="budget" className="block text-studio-light font-medium mb-2">
-                  Budget Range
-                </label>
-                <select
-                  id="budget"
-                  name="budget"
-                  value={formData.budget}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-studio-gold focus:border-transparent text-studio-light"
-                >
-                  <option value="">Select budget range</option>
-                  <option value="under-50k">Under ₹50,000</option>
-                  <option value="50k-100k">₹50,000 - ₹1,00,000</option>
-                  <option value="100k-200k">₹1,00,000 - ₹2,00,000</option>
-                  <option value="200k-500k">₹2,00,000 - ₹5,00,000</option>
-                  <option value="above-500k">Above ₹5,00,000</option>
-                </select>
               </div>
               
               <div>
