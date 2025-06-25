@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { MapPin, Phone, Mail, MessageCircle, Instagram, Facebook, Youtube } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -16,10 +17,26 @@ export const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Contact form submitted:", formData);
+    
+    // Send to WhatsApp
+    const whatsappMessage = `Hi! I'm ${formData.name}. I'm interested in your photography services.
+    
+Contact Details:
+Phone: ${formData.phone}
+Email: ${formData.email}
+Event Date: ${formData.eventDate || 'Not specified'}
+Services Needed: ${formData.services || 'Not specified'}
+
+Message: ${formData.message || 'No additional message'}`;
+    
+    const whatsappUrl = `https://wa.me/919987388744?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(whatsappUrl, '_blank');
+    
     toast({
       title: "Message Sent!",
-      description: "Thank you for your inquiry. We'll get back to you within 24 hours.",
+      description: "Thank you for your inquiry. You'll be redirected to WhatsApp to complete your message.",
     });
+    
     setFormData({
       name: "",
       phone: "",
@@ -39,7 +56,7 @@ export const Contact = () => {
 
   const handleWhatsApp = () => {
     const message = "Hi! I'm interested in your photography services. Could you please provide more information?";
-    const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/919987388744?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -84,7 +101,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-studio-light font-semibold">Phone</h4>
-                  <p className="text-studio-light/70">+91 98765 43210</p>
+                  <p className="text-studio-light/70">+91 99873 88744</p>
                 </div>
               </div>
               
@@ -94,7 +111,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-studio-light font-semibold">Email</h4>
-                  <p className="text-studio-light/70">info@5stardigitalstudio.com</p>
+                  <p className="text-studio-light/70">julietandrew9999@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -237,7 +254,7 @@ export const Contact = () => {
                 type="submit"
                 className="w-full gold-gradient text-studio-charcoal px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-xl hover:shadow-studio-gold/30 transition-all duration-300 hover-scale"
               >
-                Send Message
+                Send Message via WhatsApp
               </button>
             </form>
           </div>

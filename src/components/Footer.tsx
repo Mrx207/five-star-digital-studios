@@ -67,11 +67,11 @@ export const Footer = () => {
             <h4 className="text-lg font-semibold text-studio-light mb-4">Contact</h4>
             <div className="space-y-3 text-studio-light/70">
               <p>Mumbai, Maharashtra, India</p>
-              <p>+91 98765 43210</p>
-              <p>info@5stardigitalstudio.com</p>
+              <p>+91 99873 88744</p>
+              <p>julietandrew9999@gmail.com</p>
               <div className="pt-4">
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/919987388744"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-medium transition-all duration-300"

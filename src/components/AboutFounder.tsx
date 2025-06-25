@@ -27,42 +27,48 @@ export const AboutFounder = () => {
             </h2>
             
             <div className="mb-6">
-              <h3 className="text-2xl font-semibold text-studio-gold mb-2">Rajesh Sharma</h3>
+              <h3 className="text-2xl font-semibold text-studio-gold mb-2">Juliet Andrew</h3>
               <p className="text-lg text-studio-light/80">Creative Director & Founder</p>
             </div>
             
             <div className="space-y-4 text-studio-light/80 leading-relaxed">
               <p>
-                With over a decade of experience in photography and cinematography, 
-                Rajesh founded 5 Star Digital Studio with a vision to capture life's 
+                With over 8 years of experience in photography and cinematography, 
+                Juliet founded 5 Star Digital Studio with a vision to capture life's 
                 most precious moments with unparalleled artistry and technical excellence.
               </p>
               
               <p>
-                His journey began with a simple camera and an unwavering passion for 
-                storytelling through visuals. Today, he leads a team of creative 
-                professionals who share his commitment to delivering extraordinary 
-                experiences for every client.
+                Her journey began with a passion for storytelling through visuals and 
+                an eye for capturing authentic emotions. Today, she leads a team of 
+                creative professionals who share her commitment to delivering 
+                extraordinary experiences for every client.
               </p>
               
               <p>
-                Rajesh believes that every wedding, every celebration, and every moment 
-                has its own unique story waiting to be told through the lens of creativity 
-                and emotion.
+                Juliet believes that every wedding, every celebration, and every moment 
+                has its own unique story waiting to be told through the lens of creativity, 
+                emotion, and genuine human connection.
+              </p>
+              
+              <p>
+                Her approach combines technical expertise with artistic vision, ensuring 
+                that each photograph and video not only captures the moment but also 
+                evokes the feelings and memories that make it special.
               </p>
             </div>
             
             <div className="mt-8 flex flex-wrap gap-4">
               <div className="flex items-center bg-gray-800/50 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-studio-gold font-semibold mr-2">10+</span>
+                <span className="text-studio-gold font-semibold mr-2">8+</span>
                 <span className="text-studio-light/70">Years Experience</span>
               </div>
               <div className="flex items-center bg-gray-800/50 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-studio-gold font-semibold mr-2">500+</span>
+                <span className="text-studio-gold font-semibold mr-2">300+</span>
                 <span className="text-studio-light/70">Weddings Captured</span>
               </div>
               <div className="flex items-center bg-gray-800/50 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-studio-gold font-semibold mr-2">50+</span>
+                <span className="text-studio-gold font-semibold mr-2">25+</span>
                 <span className="text-studio-light/70">Awards Won</span>
               </div>
             </div>
