@@ -10,9 +10,9 @@ export const Portfolio = () => {
     {
       id: 1,
       category: "Weddings",
-      image: "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      title: "Elegant Wedding Ceremony",
-      description: "A beautiful wedding celebration captured in Maharashtra"
+      image: "/lovable-uploads/774b92c3-c6e0-4b1f-a84e-7c4fc2c55f13.png",
+      title: "Traditional Haldi Ceremony",
+      description: "Beautiful bride showing her henna-decorated hands during haldi ceremony"
     },
     {
       id: 2,
@@ -31,9 +31,9 @@ export const Portfolio = () => {
     {
       id: 4,
       category: "Weddings",
-      image: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      title: "Pre-Wedding Shoot",
-      description: "Romantic pre-wedding photography session"
+      image: "/lovable-uploads/dbf7774c-253e-42d4-977d-aa7b974ab101.png",
+      title: "Bridal Portrait",
+      description: "Elegant bridal portrait during wedding preparations"
     },
     {
       id: 5,
@@ -59,9 +59,44 @@ export const Portfolio = () => {
     {
       id: 8,
       category: "Weddings",
-      image: "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      title: "Wedding Reception",
-      description: "Elegant wedding reception photography"
+      image: "/lovable-uploads/333cf64c-0846-4fc3-b2e9-0290c18ead6e.png",
+      title: "Joyful Wedding Moment",
+      description: "Capturing pure joy and happiness during wedding celebrations"
+    },
+    {
+      id: 9,
+      category: "Weddings",
+      image: "/lovable-uploads/93ed40c6-06ee-4665-ac31-ae030c222240.png",
+      title: "Bridal Henna Art",
+      description: "Intricate henna designs captured in stunning detail"
+    },
+    {
+      id: 10,
+      category: "Weddings",
+      image: "/lovable-uploads/d39a0372-2a71-4cba-8833-63902614dd0c.png",
+      title: "Groom's Attire",
+      description: "Elegant groom's suit hanging beautifully in natural setting"
+    },
+    {
+      id: 11,
+      category: "Weddings",
+      image: "/lovable-uploads/6c548100-0a13-4edb-8f4b-088d6cf942aa.png",
+      title: "Wedding Ceremony",
+      description: "Beautiful couple during their wedding ceremony under decorative mandap"
+    },
+    {
+      id: 12,
+      category: "Weddings",
+      image: "/lovable-uploads/0a7cd2bd-feb8-450f-9af7-3155bfc5229f.png",
+      title: "Intimate Wedding Moment",
+      description: "Tender moment between bride and groom during ceremony"
+    },
+    {
+      id: 13,
+      category: "Weddings",
+      image: "/lovable-uploads/d69e8333-7a09-4f9a-ab4c-b9cd71b4f6f3.png",
+      title: "Bridal Squad",
+      description: "Beautiful group photo of bride with her bridesmaids"
     }
   ];
 
