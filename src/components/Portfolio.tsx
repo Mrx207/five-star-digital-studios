@@ -10,9 +10,9 @@ export const Portfolio = () => {
     {
       id: 1,
       category: "Weddings",
-      image: "/lovable-uploads/774b92c3-c6e0-4b1f-a84e-7c4fc2c55f13.png",
-      title: "Traditional Haldi Ceremony",
-      description: "Beautiful bride showing her henna-decorated hands during haldi ceremony"
+      image: "/lovable-uploads/766d6bf6-10c1-41cc-a3ff-4c70a1fab0b4.png",
+      title: "Romantic Wedding Moment",
+      description: "Intimate moment between bride and groom during ceremony"
     },
     {
       id: 2,
@@ -31,9 +31,9 @@ export const Portfolio = () => {
     {
       id: 4,
       category: "Weddings",
-      image: "/lovable-uploads/dbf7774c-253e-42d4-977d-aa7b974ab101.png",
-      title: "Bridal Portrait",
-      description: "Elegant bridal portrait during wedding preparations"
+      image: "/lovable-uploads/f828d3a4-c02c-4d9c-8c32-ad70d8151988.png",
+      title: "Wedding Party Celebration",
+      description: "Fun group shot with wedding party and groomsmen"
     },
     {
       id: 5,
@@ -59,44 +59,51 @@ export const Portfolio = () => {
     {
       id: 8,
       category: "Weddings",
-      image: "/lovable-uploads/333cf64c-0846-4fc3-b2e9-0290c18ead6e.png",
-      title: "Joyful Wedding Moment",
-      description: "Capturing pure joy and happiness during wedding celebrations"
+      image: "/lovable-uploads/1752ad7e-369c-410c-b1f2-a6c4e156779c.png",
+      title: "Wedding Reception Joy",
+      description: "Capturing pure happiness during wedding reception celebration"
     },
     {
       id: 9,
       category: "Weddings",
-      image: "/lovable-uploads/93ed40c6-06ee-4665-ac31-ae030c222240.png",
-      title: "Bridal Henna Art",
-      description: "Intricate henna designs captured in stunning detail"
+      image: "/lovable-uploads/3c5b37b1-d781-48e9-8af3-7f1f66218d6b.png",
+      title: "Proposal in Paris",
+      description: "Romantic proposal moment captured at the Eiffel Tower"
     },
     {
       id: 10,
-      category: "Weddings",
-      image: "/lovable-uploads/d39a0372-2a71-4cba-8833-63902614dd0c.png",
-      title: "Groom's Attire",
-      description: "Elegant groom's suit hanging beautifully in natural setting"
+      category: "Portraits",
+      image: "/lovable-uploads/9d495e3e-5ebd-496d-b597-ce089713b7ff.png",
+      title: "Couple Portrait Session",
+      description: "Beautiful couple photography at Gateway of India"
     },
     {
       id: 11,
-      category: "Weddings",
-      image: "/lovable-uploads/6c548100-0a13-4edb-8f4b-088d6cf942aa.png",
-      title: "Wedding Ceremony",
-      description: "Beautiful couple during their wedding ceremony under decorative mandap"
+      category: "Portraits",
+      image: "/lovable-uploads/9d8e81ed-5c7c-4621-ba68-d9840eb7986a.png",
+      title: "Mumbai Couple Session",
+      description: "Stunning couple portraits with iconic Mumbai backdrop"
     },
     {
       id: 12,
       category: "Weddings",
-      image: "/lovable-uploads/0a7cd2bd-feb8-450f-9af7-3155bfc5229f.png",
-      title: "Intimate Wedding Moment",
-      description: "Tender moment between bride and groom during ceremony"
+      image: "/lovable-uploads/0b974e65-d453-4fe5-80a0-348f2626e967.png",
+      title: "Pre-Wedding Forest Shoot",
+      description: "Romantic pre-wedding photography in natural forest setting"
     },
     {
       id: 13,
       category: "Weddings",
-      image: "/lovable-uploads/d69e8333-7a09-4f9a-ab4c-b9cd71b4f6f3.png",
-      title: "Bridal Squad",
-      description: "Beautiful group photo of bride with her bridesmaids"
+      image: "/lovable-uploads/f51ffe83-36fd-4247-997f-89ccc8ac94db.png",
+      title: "Beach Picnic Romance",
+      description: "Intimate couple moments during beach picnic photography"
+    },
+    {
+      id: 14,
+      category: "Weddings",
+      image: "/lovable-uploads/eb974213-d933-43d5-b0b6-755cf0eb50ac.png",
+      title: "Love Story Documentary",
+      description: "Beautiful pre-wedding story captured in multiple frames"
     }
   ];
 
