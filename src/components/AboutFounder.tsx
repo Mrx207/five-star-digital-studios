@@ -10,7 +10,7 @@ export const AboutFounder = () => {
               <img
                 src="/lovable-uploads/65d90729-2669-41a3-a30d-de05e2093edb.png"
                 alt="Juliet Andrew - Studio Founder"
-                className="w-full h-96 object-cover"
+                className="w-full h-[500px] object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-studio-charcoal/40 to-transparent"></div>
             </div>
