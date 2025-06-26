@@ -20,7 +20,7 @@ export const Footer = () => {
             </h3>
             <p className="text-studio-light/70 mb-6 max-w-md">
               Capturing life's most precious moments with premium photography and 
-              cinematography services across Maharashtra. Where every frame tells your unique story.
+              cinematography services. Where every frame tells your unique story.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => {
@@ -66,8 +66,8 @@ export const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-studio-light mb-4">Contact</h4>
             <div className="space-y-3 text-studio-light/70">
-              <p>Mumbai, Maharashtra, India</p>
-              <p>+91 99873 88744</p>
+              <p>Shop no 13, Manshi Classic, Kashigaon, Mira road east, Thane, Maharashtra</p>
+              <p>+91 9987388744</p>
               <p>julietandrew9999@gmail.com</p>
               <div className="pt-4">
                 <a

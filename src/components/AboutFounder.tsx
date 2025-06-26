@@ -8,8 +8,8 @@ export const AboutFounder = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Studio Founder"
+                src="/lovable-uploads/65d90729-2669-41a3-a30d-de05e2093edb.png"
+                alt="Juliet Andrew - Studio Founder"
                 className="w-full h-96 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-studio-charcoal/40 to-transparent"></div>

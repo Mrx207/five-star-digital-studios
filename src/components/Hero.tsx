@@ -18,7 +18,7 @@ export const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-studio-light/80 mb-8 animate-slide-up font-light leading-relaxed">
-          Premium photography and cinematography services across Maharashtra.<br />
+          Premium photography and cinematography services.<br />
           Where every frame tells your unique story with luxury and elegance.
         </p>
         

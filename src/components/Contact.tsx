@@ -91,7 +91,7 @@ Message: ${formData.message || 'No additional message'}`;
                 </div>
                 <div>
                   <h4 className="text-studio-light font-semibold">Studio Location</h4>
-                  <p className="text-studio-light/70">Mumbai, Maharashtra, India</p>
+                  <p className="text-studio-light/70">Shop no 13, Manshi Classic, Kashigaon, Mira road east, Thane, Maharashtra</p>
                 </div>
               </div>
               
@@ -101,7 +101,7 @@ Message: ${formData.message || 'No additional message'}`;
                 </div>
                 <div>
                   <h4 className="text-studio-light font-semibold">Phone</h4>
-                  <p className="text-studio-light/70">+91 99873 88744</p>
+                  <p className="text-studio-light/70">+91 9987388744</p>
                 </div>
               </div>
               
