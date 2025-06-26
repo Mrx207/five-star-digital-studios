@@ -95,44 +95,6 @@ export const About = () => {
             </div>
           </div>
         </div>
-        
-        {/* Team Section */}
-        <div className="mt-20">
-          <h3 className="text-3xl font-playfair font-bold text-center mb-12">
-            Meet Our <span className="text-gradient">Creative Team</span>
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                name: "Arjun Sharma",
-                role: "Lead Photographer",
-                image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-              },
-              {
-                name: "Priya Patel",
-                role: "Cinematographer",
-                image: "https://images.unsplash.com/photo-1494790108755-2616b332c07a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-              },
-              {
-                name: "Rajesh Kumar",
-                role: "Creative Director",
-                image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-              }
-            ].map((member, index) => (
-              <div key={index} className="text-center group">
-                <div className="relative mb-4 inline-block">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-32 h-32 rounded-full object-cover mx-auto border-4 border-studio-gold/20 group-hover:border-studio-gold transition-all duration-300"
-                  />
-                </div>
-                <h4 className="text-xl font-semibold text-studio-light mb-1">{member.name}</h4>
-                <p className="text-studio-gold">{member.role}</p>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
