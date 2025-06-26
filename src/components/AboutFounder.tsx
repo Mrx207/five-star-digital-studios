@@ -32,43 +32,33 @@ export const AboutFounder = () => {
             </div>
             
             <div className="space-y-4 text-studio-light/80 leading-relaxed">
+              <p className="text-xl font-medium text-studio-gold">Hey!</p>
+              <p>I'm Juliet Andrew, the founder of 5 Star Digital Studio.</p>
+              
               <p>
-                With over 8 years of experience in photography and cinematography, 
-                Juliet founded 5 Star Digital Studio with a vision to capture life's 
-                most precious moments with unparalleled artistry and technical excellence.
+                Growing up in a South Indian household, I was surrounded by women who dedicated their time to the kitchen and household responsibilities. While I deeply respect that tradition, I always felt a creative spark within me—an urge to build something of my own, to tell stories differently.
               </p>
               
               <p>
-                Her journey began with a passion for storytelling through visuals and 
-                an eye for capturing authentic emotions. Today, she leads a team of 
-                creative professionals who share her commitment to delivering 
-                extraordinary experiences for every client.
+                That curiosity and drive led me to pick up a camera one day… and I haven't looked back since.
               </p>
               
               <p>
-                Juliet believes that every wedding, every celebration, and every moment 
-                has its own unique story waiting to be told through the lens of creativity, 
-                emotion, and genuine human connection.
-              </p>
-              
-              <p>
-                Her approach combines technical expertise with artistic vision, ensuring 
-                that each photograph and video not only captures the moment but also 
-                evokes the feelings and memories that make it special.
+                What started as a few casual clicks turned into a passion, and eventually, a profession. Through 5 Star Digital Studio, I aim to capture moments that matter—with heart, creativity, and authenticity.
               </p>
             </div>
             
             <div className="mt-8 flex flex-wrap gap-4">
               <div className="flex items-center bg-gray-800/50 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-studio-gold font-semibold mr-2">8+</span>
+                <span className="text-studio-gold font-semibold mr-2">15+</span>
                 <span className="text-studio-light/70">Years Experience</span>
               </div>
               <div className="flex items-center bg-gray-800/50 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-studio-gold font-semibold mr-2">300+</span>
+                <span className="text-studio-gold font-semibold mr-2">500+</span>
                 <span className="text-studio-light/70">Weddings Captured</span>
               </div>
               <div className="flex items-center bg-gray-800/50 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-studio-gold font-semibold mr-2">25+</span>
+                <span className="text-studio-gold font-semibold mr-2">40+</span>
                 <span className="text-studio-light/70">Awards Won</span>
               </div>
             </div>
