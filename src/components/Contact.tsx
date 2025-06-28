@@ -1,6 +1,5 @@
-
 import { useState } from "react";
-import { MapPin, Phone, Mail, MessageCircle, Instagram, Facebook, Youtube } from "lucide-react";
+import { MapPin, Phone, Mail, MessageCircle, Instagram, Youtube } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export const Contact = () => {
@@ -61,9 +60,8 @@ Message: ${formData.message || 'No additional message'}`;
   };
 
   const socialLinks = [
-    { name: 'Instagram', icon: Instagram, href: '#' },
-    { name: 'Facebook', icon: Facebook, href: '#' },
-    { name: 'YouTube', icon: Youtube, href: '#' }
+    { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/5stardigital/' },
+    { name: 'YouTube', icon: Youtube, href: 'https://www.youtube.com/@5stardigitalstudio111' }
   ];
 
   return (
@@ -135,6 +133,8 @@ Message: ${formData.message || 'No additional message'}`;
                     <a
                       key={social.name}
                       href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="w-12 h-12 bg-gray-800 hover:bg-studio-gold hover:text-studio-charcoal rounded-lg flex items-center justify-center transition-all duration-300 text-studio-light"
                     >
                       <IconComponent size={20} />
