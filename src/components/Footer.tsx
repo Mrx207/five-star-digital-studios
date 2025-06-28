@@ -1,12 +1,10 @@
 
-import { Instagram, Facebook, Youtube, Twitter } from "lucide-react";
+import { Instagram, Youtube } from "lucide-react";
 
 export const Footer = () => {
   const socialLinks = [
-    { name: 'Instagram', icon: Instagram, href: '#' },
-    { name: 'Facebook', icon: Facebook, href: '#' },
-    { name: 'YouTube', icon: Youtube, href: '#' },
-    { name: 'Twitter', icon: Twitter, href: '#' }
+    { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/5stardigital/' },
+    { name: 'YouTube', icon: Youtube, href: 'https://www.youtube.com/@5stardigitalstudio111' }
   ];
 
   return (
@@ -29,6 +27,8 @@ export const Footer = () => {
                   <a
                     key={social.name}
                     href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-10 h-10 bg-gray-800 hover:bg-studio-gold hover:text-studio-charcoal rounded-lg flex items-center justify-center transition-all duration-300 text-studio-light"
                   >
                     <IconComponent size={18} />
