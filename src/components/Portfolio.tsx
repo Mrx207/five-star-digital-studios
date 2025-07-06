@@ -30,48 +30,83 @@ export const Portfolio = () => {
     },
     {
       id: 4,
-      category: "Portraits",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      title: "Professional Portrait Session",
-      description: "Stunning individual portraits with professional lighting"
+      category: "Weddings",
+      image: "/lovable-uploads/fe74fbe9-2c3d-4ea6-ae99-6d611689a401.png",
+      title: "Eternal Bond",
+      description: "Beautiful couple sharing intimate moments in golden hour lighting"
     },
     {
       id: 5,
-      category: "Events",
-      image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      title: "Corporate Event Coverage",
-      description: "Professional event photography for corporate gatherings"
+      category: "Weddings",
+      image: "/lovable-uploads/cd29fca9-ebb7-4505-aff4-0c92d360d458.png",
+      title: "Sacred Vows",
+      description: "Tender moment as groom kisses bride's hand during ceremony"
     },
     {
       id: 6,
-      category: "Corporate",
-      image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      title: "Product Photography",
-      description: "High-quality product photography for brands"
+      category: "Weddings",
+      image: "/lovable-uploads/f1bbb4dc-359f-4c6c-9a66-78534ee8d259.png",
+      title: "Wedding Party Joy",
+      description: "Bridal party and groomsmen sharing joyful moments together"
     },
     {
       id: 7,
-      category: "Portraits",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      title: "Family Portrait Session",
-      description: "Beautiful family moments captured with care"
+      category: "Weddings",
+      image: "/lovable-uploads/e7c66dc3-06ac-484d-93d3-23c1c124127d.png",
+      title: "Under the Stars",
+      description: "Couple embracing under beautifully lit mandap with fairy lights"
     },
     {
       id: 8,
-      category: "Events",
-      image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      title: "Birthday Celebration",
-      description: "Joyful birthday party moments captured"
+      category: "Weddings",
+      image: "/lovable-uploads/cf54639e-5da5-4deb-8b4a-18efaf68fe5d.png",
+      title: "Sacred Moments",
+      description: "Intimate couple portrait during traditional wedding ceremony"
     },
     {
       id: 9,
+      category: "Weddings",
+      image: "/lovable-uploads/930fbdea-3f93-43b1-a0d0-e470561f0709.png",
+      title: "Bridal Squad Goals",
+      description: "Bride surrounded by her beautiful bridesmaids in elegant red attire"
+    },
+    {
+      id: 10,
+      category: "Weddings",
+      image: "/lovable-uploads/9ac09475-6b48-4988-9160-0d131ff639c5.png",
+      title: "Wedding Party Celebration",
+      description: "Fun group photo with bride, groom and their wedding party"
+    },
+    {
+      id: 11,
+      category: "Portraits",
+      image: "/lovable-uploads/64ce85a4-7b1b-4b74-8804-dda9764dd2a9.png",
+      title: "Save the Date - Paris",
+      description: "Romantic engagement shoot at the iconic Eiffel Tower in Paris"
+    },
+    {
+      id: 12,
+      category: "Portraits",
+      image: "/lovable-uploads/bcf5f97e-a075-4bed-844a-2d4652fcac87.png",
+      title: "Gateway of India Romance",
+      description: "Beautiful couple portrait at the iconic Gateway of India, Mumbai"
+    },
+    {
+      id: 13,
+      category: "Portraits",
+      image: "/lovable-uploads/7b5e5a53-bacf-49cd-a1fa-68aee6203556.png",
+      title: "3 Day Countdown",
+      description: "Intimate pre-wedding shoot with romantic fairy light backdrop"
+    },
+    {
+      id: 14,
       category: "Portraits",
       image: "/lovable-uploads/9d495e3e-5ebd-496d-b597-ce089713b7ff.png",
       title: "Couple Portrait Session",
       description: "Beautiful couple photography at Gateway of India"
     },
     {
-      id: 10,
+      id: 15,
       category: "Portraits",
       image: "/lovable-uploads/9d8e81ed-5c7c-4621-ba68-d9840eb7986a.png",
       title: "Mumbai Couple Session",
