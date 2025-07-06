@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 export const Portfolio = () => {
@@ -111,6 +110,27 @@ export const Portfolio = () => {
       image: "/lovable-uploads/9d8e81ed-5c7c-4621-ba68-d9840eb7986a.png",
       title: "Mumbai Couple Session",
       description: "Stunning couple portraits with iconic Mumbai backdrop"
+    },
+    {
+      id: 16,
+      category: "Portraits",
+      image: "/lovable-uploads/e6436592-ed61-455b-ba6d-7bde3c045399.png",
+      title: "Forest Romance",
+      description: "Romantic couple embrace in a dreamy forest setting with golden hour lighting"
+    },
+    {
+      id: 17,
+      category: "Portraits",
+      image: "/lovable-uploads/325af7de-f332-4ce0-bcc2-bb60c3fa9dfa.png",
+      title: "Beach Picnic Love",
+      description: "Intimate beach picnic session with tropical palm trees backdrop"
+    },
+    {
+      id: 18,
+      category: "Portraits",
+      image: "/lovable-uploads/25af96a3-5e2d-4842-ae8e-3eb229eea9e6.png",
+      title: "Love Story Countdown",
+      description: "Beautiful pre-wedding story about love with scenic bridge and lake views"
     }
   ];
 
